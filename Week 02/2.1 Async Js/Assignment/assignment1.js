@@ -1,4 +1,4 @@
-// Try to create promosofied version of setTimeout
+// create promisified version of setTimeout
 
 function wait(duration){
     return new Promise((resolve) => {
