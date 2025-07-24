@@ -1,0 +1,116 @@
+/* Global page styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Todo app container */
+.container {
+  background: #1e1e1e;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Input + Add button container */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+/* Add Todo button */
+.input-area button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+
+
+/* Individual todo item container */
+.todo {
+  background: #2b2b2b;
+  padding: 15px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Todo text (inline with delete button) */
+.todo-text {
+  margin: 0;
+  font-size: 16px;
+  color: #f5f5f5;
+  flex: 1;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+/* Delete button */
+.todo button {
+  background-color: #e53935;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.todo button:hover {
+  background-color: #c62828;
+}
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #2c2c2c;
+  color: white;
+  margin-right: 10px;
+}
+
+.todo button:nth-child(2) {
+  background-color: #2196F3; 
+}
+
+.todo button:nth-child(2):hover {
+  background-color: #1976D2;
+}
